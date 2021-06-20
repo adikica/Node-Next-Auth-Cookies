@@ -1,0 +1,57 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.flex_row{
+  display: flex;
+  flex-direction: row;
+}
+.flex_col{
+  display: flex;
+  flex-direction: column;
+}
+/*form style*/
+.form_wrapper{
+  display: block;
+  max-width: 444px;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+
+.button{
+  display: block;
+  margin:3px 5px;
+  padding:3px 5px;
+  border-radius: 3px;
+  background-color: burlywood;
+  width: fit-content;
+}
+.very_danger{
+  display: block;
+  margin:3px 5px;
+  padding:3px 5px;
+  border-radius: 3px;
+  background-color: rgb(240, 6, 6);
+  color: white;
+  font-size: 20px;
+  width: fit-content;
+}
+
+.profile_wrapper{
+  display: block;
+  max-width: 480px;
+  margin: 0 auto;
+}
