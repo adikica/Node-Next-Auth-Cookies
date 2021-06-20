@@ -1,5 +1,5 @@
 # Node-Next-Auth-Cookies
-Tutorial Shqip-Part 1.Regjistrimi dhe Identifikimi me Cookies - Backend Node Js dhe Frontend Next Js
+Tutorial Shqip-Regjistrimi dhe Identifikimi me Cookies - Backend Node Js dhe Frontend Next Js
 
 Part 1
 https://www.youtube.com/watch?v=7EJwa2enxIo
