@@ -1,6 +1,3 @@
-// EMAIL_FROM=adi@kaltersia.com
-// CLIENT_URL=http://localhost:3000
-// JWT_RESET_PASSWORD=erbtertnertvstre
 // begin send mail
 const output = `
 <p>Ju keni nje email te ri nga X server</p>
@@ -15,12 +12,12 @@ const output = `
 
 // create reusable transporter object using the default SMTP transport
 let transporter = nodemailer.createTransport({
-  host: "kaltersia.com",
+  host: "aaaaaaaaaa.com",
   port: 465,
   secure: true, // true for 465, false for other ports
   auth: {
-    user: "adi@kaltersia.com", // generated ethereal user
-    pass: "Tralala@666", // generated ethereal password
+    user: "aaaaa@aaaaaa.com", // generated ethereal user
+    pass: "aaaaaaaa@aaaaaa", // generated ethereal password
   },
   tls: {
     rejectUnauthorized: false,
@@ -29,8 +26,8 @@ let transporter = nodemailer.createTransport({
 
 // setup email data with unicode symbols
 let mailOptions = {
-  from: '"NodeJs & Nodemailer" <adi@kaltersia.com>', // sender address
-  to: "adikica91@gmail.com", // list of receivers
+  from: '"NodeJs & Nodemailer" <aaaaa@aaaaaaaaa.com>', // sender address
+  to: "aaaaaa1@gmail.com", // list of receivers
   subject: "Regjistrim i ri", // Subject line
   text: "Hello world?", // plain text body
   html: output, // html body
