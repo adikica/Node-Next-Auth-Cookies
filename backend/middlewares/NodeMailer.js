@@ -1,11 +1,11 @@
 // create reusable transporter object using the default SMTP transport
 let transporter = nodemailer.createTransport({
-  host: "kaltersia.com",
+  host: "aaaaaaaaa.com",
   port: 465,
   secure: true, // true for 465, false for other ports
   auth: {
-    user: "adi@kaltersia.com", // generated ethereal user
-    pass: "Tralala@666", // generated ethereal password
+    user: "aaaaaaa@aaaaaaaaa.com", // generated ethereal user
+    pass: "aaaaaaaaa@aaaaaaa", // generated ethereal password
   },
   tls: {
     rejectUnauthorized: false,
@@ -14,8 +14,8 @@ let transporter = nodemailer.createTransport({
 
 // setup email data with unicode symbols
 let mailOptions = {
-  from: '"NodeJs & Nodemailer" <adi@kaltersia.com>', // sender address
-  to: "adikica91@gmail.com", // list of receivers
+  from: '"NodeJs & Nodemailer" <aaaaaaa@aaaaaaaaaaaa.com>', // sender address
+  to: "aaaaaaaaa@gmail.com", // list of receivers
   subject: "Regjistrim i ri", // Subject line
   text: "Hello world?", // plain text body
   html: output, // html body
